@@ -1,0 +1,238 @@
+[데이터] in-vehicle-coupon-recommendation.csv  (행 12684, 열 26)
+
+[destination] 고유값 3개, 빈 문자열 0개
+                   개수  비율(%)
+destination                 
+No Urgent Place  6283  49.53
+Home             3237  25.52
+Work             3164  24.94
+
+[passanger] 고유값 4개, 빈 문자열 0개
+             개수  비율(%)
+passanger             
+Alone      7305  57.59
+Friend(s)  3298  26.00
+Partner    1075   8.48
+Kid(s)     1006   7.93
+
+[weather] 고유값 3개, 빈 문자열 0개
+            개수  비율(%)
+weather              
+Sunny    10069  79.38
+Snowy     1405  11.08
+Rainy     1210   9.54
+
+[temperature] 고유값 3개, 빈 문자열 0개
+               개수  비율(%)
+temperature             
+80           6528  51.47
+55           3840  30.27
+30           2316  18.26
+
+[time] 고유값 5개, 빈 문자열 0개
+        개수  비율(%)
+time             
+6PM   3230  25.47
+7AM   3164  24.94
+10AM  2275  17.94
+2PM   2009  15.84
+10PM  2006  15.82
+
+[coupon] 고유값 5개, 빈 문자열 0개
+                         개수  비율(%)
+coupon                            
+Coffee House           3996  31.50
+Restaurant(<20)        2786  21.96
+Carry out & Take away  2393  18.87
+Bar                    2017  15.90
+Restaurant(20-50)      1492  11.76
+
+[expiration] 고유값 2개, 빈 문자열 0개
+              개수  비율(%)
+expiration             
+1d          7091  55.91
+2h          5593  44.09
+
+[gender] 고유값 2개, 빈 문자열 0개
+          개수  비율(%)
+gender             
+Female  6511  51.33
+Male    6173  48.67
+
+[age] 고유값 8개, 빈 문자열 0개
+           개수  비율(%)
+age                 
+21       2653  20.92
+26       2559  20.18
+31       2039  16.08
+50plus   1788  14.10
+36       1319  10.40
+41       1093   8.62
+46        686   5.41
+below21   547   4.31
+
+[maritalStatus] 고유값 5개, 빈 문자열 0개
+                     개수  비율(%)
+maritalStatus                 
+Married partner    5100  40.21
+Single             4752  37.46
+Unmarried partner  2186  17.23
+Divorced            516   4.07
+Widowed             130   1.02
+
+[has_children] 고유값 2개, 빈 문자열 0개
+                개수  비율(%)
+has_children             
+0             7431  58.59
+1             5253  41.41
+
+[education] 고유값 6개, 빈 문자열 0개
+                                          개수  비율(%)
+education                                          
+Some college - no degree                4351  34.30
+Bachelors degree                        4335  34.18
+Graduate degree (Masters or Doctorate)  1852  14.60
+Associates degree                       1153   9.09
+High School Graduate                     905   7.13
+Some High School                          88   0.69
+  -> 1% 미만 희소 범주: ['Some High School']
+
+[occupation] 고유값 25개, 빈 문자열 0개
+                                             개수  비율(%)
+occupation                                            
+Unemployed                                 1870  14.74
+Student                                    1584  12.49
+Computer & Mathematical                    1408  11.10
+Sales & Related                            1093   8.62
+Education&Training&Library                  943   7.43
+Management                                  838   6.61
+Office & Administrative Support             639   5.04
+Arts Design Entertainment Sports & Media    629   4.96
+Business & Financial                        544   4.29
+Retired                                     495   3.90
+Food Preparation & Serving Related          298   2.35
+Healthcare Practitioners & Technical        244   1.92
+Healthcare Support                          242   1.91
+Community & Social Services                 241   1.90
+Legal                                       219   1.73
+Transportation & Material Moving            218   1.72
+Architecture & Engineering                  175   1.38
+Personal Care & Service                     175   1.38
+Protective Service                          175   1.38
+Life Physical Social Science                170   1.34
+Construction & Extraction                   154   1.21
+Installation Maintenance & Repair           133   1.05
+Production Occupations                      110   0.87
+Building & Grounds Cleaning & Maintenance    44   0.35
+Farming Fishing & Forestry                   43   0.34
+  -> 1% 미만 희소 범주: ['Production Occupations', 'Building & Grounds Cleaning & Maintenance', 'Farming Fishing & Forestry']
+
+[income] 고유값 9개, 빈 문자열 0개
+                    개수  비율(%)
+income                       
+$25000 - $37499   2013  15.87
+$12500 - $24999   1831  14.44
+$37500 - $49999   1805  14.23
+$100000 or More   1736  13.69
+$50000 - $62499   1659  13.08
+Less than $12500  1042   8.22
+$87500 - $99999    895   7.06
+$75000 - $87499    857   6.76
+$62500 - $74999    846   6.67
+
+[car] 고유값 6개, 빈 문자열 12576개
+                                             개수  비율(%)
+car                                                   
+                                          12576  99.15
+Scooter and motorcycle                       22   0.17
+Mazda5                                       22   0.17
+do not drive                                 22   0.17
+crossover                                    21   0.17
+Car that is too old to install Onstar :D     21   0.17
+  -> 1% 미만 희소 범주: ['Scooter and motorcycle', 'Mazda5', 'do not drive', 'crossover', 'Car that is too old to install Onstar :D']
+
+[Bar] 고유값 6개, 빈 문자열 107개
+         개수  비율(%)
+Bar               
+never  5197  40.97
+less1  3482  27.45
+1~3    2473  19.50
+4~8    1076   8.48
+gt8     349   2.75
+        107   0.84
+  -> 1% 미만 희소 범주: ['']
+
+[CoffeeHouse] 고유값 6개, 빈 문자열 217개
+               개수  비율(%)
+CoffeeHouse             
+less1        3385  26.69
+1~3          3225  25.43
+never        2962  23.35
+4~8          1784  14.06
+gt8          1111   8.76
+              217   1.71
+
+[CarryAway] 고유값 6개, 빈 문자열 151개
+             개수  비율(%)
+CarryAway             
+1~3        4672  36.83
+4~8        4258  33.57
+less1      1856  14.63
+gt8        1594  12.57
+never       153   1.21
+            151   1.19
+
+[RestaurantLessThan20] 고유값 6개, 빈 문자열 130개
+                        개수  비율(%)
+RestaurantLessThan20             
+1~3                   5376  42.38
+4~8                   3580  28.22
+less1                 2093  16.50
+gt8                   1285  10.13
+never                  220   1.73
+                       130   1.02
+
+[Restaurant20To50] 고유값 6개, 빈 문자열 189개
+                    개수  비율(%)
+Restaurant20To50             
+less1             6077  47.91
+1~3               3290  25.94
+never             2136  16.84
+4~8                728   5.74
+gt8                264   2.08
+                   189   1.49
+
+[toCoupon_GEQ5min] 고유값 1개, 빈 문자열 0개
+                     개수  비율(%)
+toCoupon_GEQ5min              
+1                 12684  100.0
+
+[toCoupon_GEQ15min] 고유값 2개, 빈 문자열 0개
+                     개수  비율(%)
+toCoupon_GEQ15min             
+1                  7122  56.15
+0                  5562  43.85
+
+[toCoupon_GEQ25min] 고유값 2개, 빈 문자열 0개
+                      개수  비율(%)
+toCoupon_GEQ25min              
+0                  11173  88.09
+1                   1511  11.91
+
+[direction_same] 고유값 2개, 빈 문자열 0개
+                  개수  비율(%)
+direction_same             
+0               9960  78.52
+1               2724  21.48
+
+[direction_opp] 고유값 2개, 빈 문자열 0개
+                 개수  비율(%)
+direction_opp             
+1              9960  78.52
+0              2724  21.48
+
+[Y] 고유값 2개, 빈 문자열 0개
+     개수  비율(%)
+Y             
+1  7210  56.84
+0  5474  43.16
